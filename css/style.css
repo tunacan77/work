@@ -47,6 +47,7 @@ img {
   text-align: center;
   border-radius: 50%;
   cursor: pointer;
+  z-index: 5;
 }
 
 .gotop:hover {
