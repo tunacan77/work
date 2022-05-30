@@ -5,6 +5,8 @@ $(document).ready(function () {
         $(this).find(".minusBtn").toggle();
         $(this).find(".title").toggleClass("blue");
         $(this).siblings().children(".title_box").children(".title").removeClass("blue");
+        $(this).siblings().children(".title_box").children(".plusBtn").show();
+        $(this).siblings().children(".title_box").children(".minusBtn").hide();
         $(this).siblings().children(".hide_txt").slideUp(500);
     });
     /*-----------------------------------------------------*/
